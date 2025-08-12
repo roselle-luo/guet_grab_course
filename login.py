@@ -3,12 +3,13 @@ import re
 from bs4 import BeautifulSoup
 from requests import Session
 
+import common
 from crypto import crypto_login_password
 
 
 def login(session: Session, username, password):
+    print(f'当前登录账户：{username}')
     salt = session.get("https://bkjwtest.guet.edu.cn/student/ldap/login-salt").text
-    print(f'盐值: {salt}')
     encrypt_password = crypto_login_password(password, salt)
     form = {
         'username': username,
@@ -25,6 +26,9 @@ def login(session: Session, username, password):
         'Cookie': cookie
     }
     session.headers.update(header)
+    student_id_response = session.get('https://bkjwtest.guet.edu.cn/course-selection-api/api/v1/student/course-select/students')
+    common.STUDENT_ID = student_id_response.json()['data'][0]
+
 
 def parse_token(html):
     soup = BeautifulSoup(html, 'html.parser')

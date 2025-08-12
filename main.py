@@ -1,12 +1,20 @@
-from common import BASE_URL, USERNAME
+from dotenv import load_dotenv
+
+from utils import json_perfect_out
+
+load_dotenv(dotenv_path='env.env')
+import common
 from network import NetClient
+from select_course import select_course, drop_course
+
 
 def main():
-    print('========== 请先输入你的学号和密码 ==========')
-    USERNAME = input('学号：').strip()
-    PASSWORD = input('密码：').strip()
-    client = NetClient(base_url= BASE_URL)
-    response = client.get(path_or_url='/course-selection-api/api/v1/student/course-select/99899/turn/1321/select')
+    print('========== 初始化环境 ==========')
+    client = NetClient(base_url= common.BASE_URL)
+    print(common.STUDENT_ID)
+    training_plan_courses = client.get(path_or_url='/course-selection-api/api/v1/student/course-select/selected-lessons/1321/99899')
+    #select_course()
+
 
 if __name__ == '__main__':
     main()

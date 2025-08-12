@@ -1,6 +1,8 @@
+import os
+
 PUBLIC_KEY = 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFY5N+9UX+0BF+xz1svFguI4CIDvmQTfINkOZ1HOO3ltBNHGQTUirUPQTyEph/+q/l8b16YYw3I2fyTH6y15s3tHf5jMei+R/20jFRGo5udwVJUwq/RozKQIRzCtPYkXG4YWBnHKhXalZ5K2fhd5i/QtB016nVugH/7eiBDWbKVwIDAQAB'
 MODE = 'debug'
 BASE_URL = 'https://bkjwtest.guet.edu.cn'
-
-USERNAME = ''
-PASSWORD = ''
+USERNAME = os.getenv('student_id')
+PASSWORD = os.getenv('password')
+STUDENT_ID = 0

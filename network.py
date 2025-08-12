@@ -18,7 +18,7 @@ def singleton(cls):
 @singleton
 class NetClient:
     def __init__(self, base_url=None):
-        self.session = requests.Session()
+        self.session = requests.session()
         self.base_url = base_url.rstrip("/") if base_url else None
         headers = self.session.headers
         has_cookie = "Cookie" in headers and bool(headers["Cookie"].strip())
@@ -56,7 +56,7 @@ class NetClient:
             network_logger.debug(f"JSON: {kwargs['json']}")
         network_logger.info(f"Status: {resp.status_code} | Time: {elapsed:.2f}s | Size: {len(resp.content)} bytes")
         network_logger.debug(f"Response: {resp.text}")
-        network_logger.info('========== End ==========')
+        network_logger.info('========== End ==========\n')
 
     def _full_url(self, path_or_url):
         if path_or_url.startswith("http"):

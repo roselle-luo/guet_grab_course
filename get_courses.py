@@ -50,6 +50,7 @@ def search_course(course_name = '', teacher_name=''):
     print(f'先行找到的ids：{ids}')
     lessons = get_courses(course_name=course_name, teacher_name=teacher_name, ids=ids)
     print(lessons)
+    return lessons
 
 
 def save_courses(courses):

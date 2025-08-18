@@ -5,6 +5,7 @@ import common
 from network import NetClient
 from select_course import select_course, drop_course
 from get_courses import search_course
+from monitor import grab_course
 
 
 def main():
@@ -14,7 +15,7 @@ def main():
     # json_perfect_out(training_plan_courses.json())
     #select_course()
     #get_courses(course_name='EE', teacher_name='肖', page_num=1, page_size=300)
-    search_course(teacher_name='王亚冰')
+    grab_course(course_name='形势与政策5')
 
 if __name__ == '__main__':
     main()

@@ -231,17 +231,6 @@
     "openDepartment": "机电工程学院|School of Mechanical and Electrical Engineering"
   },
   {
-    "id": 282670,
-    "courseId": 1106,
-    "courseName": "电子封装结构设计与热设计|　Structural design and thermal design of electronic packaging",
-    "courseCode": "0100250X0",
-    "lessonName": "2022电子封装技术22001401,22001402,22001403,22001404,22001405",
-    "lessonCode": "2511121",
-    "teacherName": "刘东静|liudongjing",
-    "mcCodeName": null,
-    "openDepartment": "机电工程学院|School of Mechanical and Electrical Engineering"
-  },
-  {
     "id": 286766,
     "courseId": 26054,
     "courseName": "概率论与数理统计|Probability and Statistics",
@@ -14834,7 +14823,7 @@
     "courseCode": "040042",
     "lessonName": "2024动画24004101,24004102",
     "lessonCode": "2514284",
-    "teacherName": "赵勤恒|zhaoqin恒",
+    "teacherName": "韩露|hanlou",
     "mcCodeName": null,
     "openDepartment": "艺术与设计学院|School of Art and Design"
   },
@@ -14856,7 +14845,7 @@
     "courseCode": "040045",
     "lessonName": "2024动画24004101,24004102",
     "lessonCode": "2510294",
-    "teacherName": "韩露|hanlou",
+    "teacherName": "赵勤恒|zhaoqin恒",
     "mcCodeName": null,
     "openDepartment": "艺术与设计学院|School of Art and Design"
   },
@@ -17474,7 +17463,7 @@
     "courseCode": "040131",
     "lessonName": "2025动画25004101,25004102",
     "lessonCode": "2514121",
-    "teacherName": "赵勤恒|zhaoqin恒",
+    "teacherName": "卜治寒|buzhihan",
     "mcCodeName": null,
     "openDepartment": "艺术与设计学院|School of Art and Design"
   },
@@ -18156,7 +18145,7 @@
     "courseCode": "000044",
     "lessonName": "2025动画25004101,25004102",
     "lessonCode": "2514166",
-    "teacherName": "卜治寒|buzhihan",
+    "teacherName": "赵勤恒|zhaoqin恒",
     "mcCodeName": null,
     "openDepartment": "艺术与设计学院|School of Art and Design"
   },

@@ -20,7 +20,7 @@ class CourseQueryParams:
     lessonNameOrCode: str = ""  # 教学班名
     majorId: str = ""  # 上课专业
     openDepartmentId: str = ""  # 开课学院
-    pageNo: int = 2  # 页数
+    pageNo: int = 1  # 页数
     pageSize: int = 20  # 页面大小
     semesterId: int = 281  # 学期
     sortField: str = "course"  # 暂时先固定

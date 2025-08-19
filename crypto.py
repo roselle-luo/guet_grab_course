@@ -18,7 +18,7 @@ def rsa_encrypt_pkcs1_v15(public_key_pem: str, message: str) -> str:
     # base64编码输出
     encrypted_base64 = base64.b64encode(encrypted_bytes).decode('utf-8')
 
-    print("加密结果:", encrypted_base64)
+    #print("加密结果:", encrypted_base64)
     return encrypted_base64
 
 def to_pem(pubkey_b64):

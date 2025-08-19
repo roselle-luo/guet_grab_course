@@ -1,5 +1,6 @@
 import common
 import json
+from model.course_out import CourseOut
 from model.get_course_param import CourseQueryParams
 from network import NetClient
 
@@ -50,10 +51,27 @@ def search_course(course_name = '', teacher_name=''):
     print(f'先行找到的ids：{ids}')
     lessons = get_courses(course_name=course_name, teacher_name=teacher_name, ids=ids)
     print(lessons)
+    save_courses(lessons)
     return lessons
+
+def get_selected_courses():
+    client = NetClient()
+    path = f'/course-selection-api/api/v1/student/course-select/selected-lessons/1321/{common.STUDENT_ID}'
+    response = client.get(path_or_url=path)
+    courses_info = response.json()['data']
+    courses: list[CourseOut] = []
+    for item in courses_info:
+        course = CourseOut()
+        course.id = item['id']
+        course.course_name = item['course']['nameZh']
+        course.teacher = [i['nameZh'] for i in item['teachers']]
+        course.credits = item['course']['credits']
+        course.type = item['courseType']['nameZh']
+        courses.append(course)
+    return courses
 
 
 def save_courses(courses):
-    with open("courses.json", "w", encoding="utf-8") as f:
+    with open("search_courses.json", "w", encoding="utf-8") as f:
         json.dump(courses, f, ensure_ascii=False, indent=2)
     print("课程数据已写入 courses.json")

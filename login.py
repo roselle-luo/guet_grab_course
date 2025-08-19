@@ -16,7 +16,7 @@ def login(session: Session, username, password):
         'password': encrypt_password
     }
     response1 = session.post("https://bkjwtest.guet.edu.cn/student/ldap/login", json=form)
-    print(response1.text)
+    #print(response1.text)
     response2 = session.get("https://bkjwtest.guet.edu.cn/student/for-std/course-select",allow_redirects=True)
     token = parse_token(response2.text)
     cookie = 'cs-course-select-student-token=' + token

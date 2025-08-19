@@ -21,8 +21,8 @@ def main():
     #select_course()
     #search_course(course_name='（网络）')
     #grab_course(course_name='形势与政策5')
-    # my_course = get_selected_courses()
-    # [item.out() for item in my_course]
+    my_course = get_selected_courses()
+    [item.out() for item in my_course]
 
 def print_menu():
     print('\n选择要进行的功能：')

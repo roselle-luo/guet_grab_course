@@ -5,18 +5,21 @@ from get_courses import search_course
 from select_course import select_course
 
 
-def monitor_course(course_name, teacher_name=''):
-    courses = search_course(course_name=course_name, teacher_name=teacher_name)
+def monitor_course(course_name, teacher_name='', course_type=''):
+    courses = search_course(course_name=course_name, teacher_name=teacher_name, course_type=course_type)
     if courses:
         return courses
     else:
         return None
 
+def filter_business_course(courses):
+    return [c for c in courses if c['courseType']['nameZh'].lower() == '创新精神与创业实践'.lower()]
 
 
-def grab_course(course_name, teacher_name='', interval=2, max_workers=5):
+def grab_course(course_name, teacher_name='', course_type='', is_business=False, interval=2, max_workers=5):
     while True:
-        courses = monitor_course(course_name=course_name, teacher_name=teacher_name)
+        courses = monitor_course(course_name=course_name, teacher_name=teacher_name, course_type=course_type)
+        courses = filter_business_course(courses=courses)
         if courses:
             with ThreadPoolExecutor(max_workers=max_workers) as executor:
                 futures = [executor.submit(select_course, course['id']) for course in courses]

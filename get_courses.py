@@ -5,13 +5,14 @@ from model.get_course_param import CourseQueryParams
 from network import NetClient
 
 
-def get_courses(course_name, teacher_name, ids, page_num: int = None, page_size: int = None):
+def get_courses(course_name, teacher_name, course_type, ids, page_num: int = None, page_size: int = None):
     client = NetClient()
     path = f'/course-selection-api/api/v1/student/course-select/query-lesson/{common.STUDENT_ID}/1321'
     param = CourseQueryParams()
     param.courseNameOrCode = course_name
     param.teacherNameOrCode = teacher_name
     param.ids = ids
+    param.coursePropertyId = course_type
     if page_num and page_size:
         param.pageNo = page_num
         param.pageSize = page_size
@@ -24,7 +25,7 @@ def get_courses(course_name, teacher_name, ids, page_num: int = None, page_size:
 def search_preview(courses, name = '', teacher = ''):
     return [item for item in courses if name in item['courseName'].lower() and teacher in item['teacherName'].lower()]
 
-def search_course(course_name = '', teacher_name=''):
+def search_course(course_name = '', teacher_name='', course_type= ''):
     client = NetClient()
     all_course_number = client.get('/simplest-lessons/static/lessons/1321/version.json')
     number = all_course_number.json()['itemList'][0]
@@ -49,7 +50,7 @@ def search_course(course_name = '', teacher_name=''):
     courses = search_preview(courses=courses, name=course_name, teacher=teacher_name)
     ids = [course['id'] for course in courses]
     print(f'先行找到的ids：{ids}')
-    lessons = get_courses(course_name=course_name, teacher_name=teacher_name, ids=ids)
+    lessons = get_courses(course_name=course_name, teacher_name=teacher_name, ids=ids, course_type=course_type)
     print(lessons)
     save_courses(lessons)
     return lessons

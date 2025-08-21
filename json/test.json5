@@ -1,0 +1,2356 @@
+[
+    {
+        "id": 283462,
+        "nameZh": "2023软件工程23003201,23003202,23003203,23003204",
+        "nameEn": null,
+        "code": "2512740",
+        "teachers": [
+            {
+                "id": 1332,
+                "nameZh": "肖雁南",
+                "nameEn": "xiaoyannan"
+            }
+        ],
+        "course": {
+            "id": 25721,
+            "nameZh": "Java EE框架技术",
+            "nameEn": "Java EE Framework Technology",
+            "code": "030002",
+            "credits": 2.5,
+            "flags": [
+                "PROFESSIONAL"
+            ],
+            "department": {
+                "id": 17,
+                "nameZh": "计算机与信息安全学院",
+                "nameEn": "School of Computer Science and Information Security",
+                "code": "228",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 225,
+            "nameZh": "专业限选课程",
+            "nameEn": null,
+            "code": "05"
+        },
+        "examMode": {
+            "id": 1,
+            "nameZh": "考试",
+            "nameEn": "Paper exam",
+            "code": "1"
+        },
+        "courseProperty": {
+            "id": 3,
+            "nameZh": "专业限选",
+            "nameEn": "Restricted",
+            "code": "03"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 90,
+        "dateTimePlace": {
+            "textZh": "7~16周 星期一 5~6节 花江校区 17511*; \n7~16周 星期三 7~8节 花江校区 17305*",
+            "textEn": "7~16 Week Mon. Unit 5~Unit 6 花江校区,17511*; \n7~16 Week Wed. Unit 7~Unit 8 花江校区,17305*",
+            "text": "7~16周 星期一 5~6节 花江校区 17511*; \n7~16周 星期三 7~8节 花江校区 17305*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 17,
+            "nameZh": "计算机与信息安全学院",
+            "nameEn": "School of Computer Science and Information Security",
+            "code": "228",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 40,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 284462,
+                "no": 0,
+                "limitCount": 90,
+                "dateTimePlace": {
+                    "textZh": "7~16周 星期一 5~6节 花江校区 17511*; \n7~16周 星期三 7~8节 花江校区 17305*",
+                    "textEn": "7~16 Week Mon. Unit 5~Unit 6 花江校区,17511*; \n7~16 Week Wed. Unit 7~Unit 8 花江校区,17305*",
+                    "text": "7~16周 星期一 5~6节 花江校区 17511*; \n7~16周 星期三 7~8节 花江校区 17305*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 283462,
+                        "scheduleGroupId": 284462,
+                        "weekday": 1,
+                        "startUnit": 6,
+                        "endUnit": 7,
+                        "startTime": 1430,
+                        "entTime": 1605
+                    },
+                    {
+                        "lessonId": 283462,
+                        "scheduleGroupId": 284462,
+                        "weekday": 3,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 7,
+        "scheduleEndWeek": 16,
+        "weekDays": [
+            1,
+            3
+        ]
+    },
+    {
+        "id": 285720,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2513213",
+        "teachers": [
+            {
+                "id": 1861,
+                "nameZh": "张瑞霞",
+                "nameEn": "zhangruixia"
+            }
+        ],
+        "course": {
+            "id": 722,
+            "nameZh": "Python语言导论",
+            "nameEn": "Introduction to Python",
+            "code": "0000897X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 3,
+                "nameZh": "全校",
+                "nameEn": null,
+                "code": "00",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 252,
+            "nameZh": "自然科学与技术工程",
+            "nameEn": null,
+            "code": "15"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 90,
+        "dateTimePlace": {
+            "textZh": "3~10周 星期三 9~10节 花江校区 16501*",
+            "textEn": "3~10 Week Wed. Unit 9~Unit 10 花江校区,16501*",
+            "text": "3~10周 星期三 9~10节 花江校区 16501*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 17,
+            "nameZh": "计算机与信息安全学院",
+            "nameEn": "School of Computer Science and Information Security",
+            "code": "228",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 286716,
+                "no": 0,
+                "limitCount": 90,
+                "dateTimePlace": {
+                    "textZh": "3~10周 星期三 9~10节 花江校区 16501*",
+                    "textEn": "3~10 Week Wed. Unit 9~Unit 10 花江校区,16501*",
+                    "text": "3~10周 星期三 9~10节 花江校区 16501*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 285720,
+                        "scheduleGroupId": 286716,
+                        "weekday": 3,
+                        "startUnit": 10,
+                        "endUnit": 11,
+                        "startTime": 1930,
+                        "entTime": 2110
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 3,
+        "scheduleEndWeek": 10,
+        "weekDays": [
+            3
+        ]
+    },
+    {
+        "id": 285672,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2513282",
+        "teachers": [
+            {
+                "id": 307,
+                "nameZh": "赵岭忠",
+                "nameEn": "zhaolingzhong"
+            }
+        ],
+        "course": {
+            "id": 126,
+            "nameZh": "《弟子规》导引",
+            "nameEn": "Disciples Regulation",
+            "code": "0000345X0",
+            "credits": 2.0,
+            "flags": [],
+            "department": {
+                "id": 17,
+                "nameZh": "计算机与信息安全学院",
+                "nameEn": "School of Computer Science and Information Security",
+                "code": "228",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 90,
+        "dateTimePlace": {
+            "textZh": "5~12周 星期一 7~8节 花江校区 17205*; \n5~12周 星期三 7~8节 花江校区 17205*",
+            "textEn": "5~12 Week Mon. Unit 7~Unit 8 花江校区,17205*; \n5~12 Week Wed. Unit 7~Unit 8 花江校区,17205*",
+            "text": "5~12周 星期一 7~8节 花江校区 17205*; \n5~12周 星期三 7~8节 花江校区 17205*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 17,
+            "nameZh": "计算机与信息安全学院",
+            "nameEn": "School of Computer Science and Information Security",
+            "code": "228",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 32,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 286668,
+                "no": 0,
+                "limitCount": 90,
+                "dateTimePlace": {
+                    "textZh": "5~12周 星期一 7~8节 花江校区 17205*; \n5~12周 星期三 7~8节 花江校区 17205*",
+                    "textEn": "5~12 Week Mon. Unit 7~Unit 8 花江校区,17205*; \n5~12 Week Wed. Unit 7~Unit 8 花江校区,17205*",
+                    "text": "5~12周 星期一 7~8节 花江校区 17205*; \n5~12周 星期三 7~8节 花江校区 17205*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 285672,
+                        "scheduleGroupId": 286668,
+                        "weekday": 1,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    },
+                    {
+                        "lessonId": 285672,
+                        "scheduleGroupId": 286668,
+                        "weekday": 3,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 5,
+        "scheduleEndWeek": 12,
+        "weekDays": [
+            1,
+            3
+        ]
+    },
+    {
+        "id": 291380,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2512902",
+        "teachers": [
+            {
+                "id": 2774,
+                "nameZh": "黄秋萍",
+                "nameEn": "huangqiuping"
+            }
+        ],
+        "course": {
+            "id": 694,
+            "nameZh": "世界古代文明",
+            "nameEn": "null",
+            "code": "0000869X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 25,
+                "nameZh": "外国语学院",
+                "nameEn": "School of Foreign Studies",
+                "code": "125",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 50,
+        "dateTimePlace": {
+            "textZh": "6~9周 星期日 1~2节 花江校区 17208新",
+            "textEn": "6~9 Week Sun. Unit 1~Unit 2 花江校区,17208新",
+            "text": "6~9周 星期日 1~2节 花江校区 17208新"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 25,
+            "nameZh": "外国语学院",
+            "nameEn": "School of Foreign Studies",
+            "code": "125",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 292005,
+                "no": 0,
+                "limitCount": 50,
+                "dateTimePlace": {
+                    "textZh": "6~9周 星期日 1~2节 花江校区 17208新",
+                    "textEn": "6~9 Week Sun. Unit 1~Unit 2 花江校区,17208新",
+                    "text": "6~9周 星期日 1~2节 花江校区 17208新"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 291380,
+                        "scheduleGroupId": 292005,
+                        "weekday": 7,
+                        "startUnit": 1,
+                        "endUnit": 2,
+                        "startTime": 825,
+                        "entTime": 1000
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 6,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            7
+        ]
+    },
+    {
+        "id": 291381,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2512915",
+        "teachers": [
+            {
+                "id": 2774,
+                "nameZh": "黄秋萍",
+                "nameEn": "huangqiuping"
+            }
+        ],
+        "course": {
+            "id": 694,
+            "nameZh": "世界古代文明",
+            "nameEn": "null",
+            "code": "0000869X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 25,
+                "nameZh": "外国语学院",
+                "nameEn": "School of Foreign Studies",
+                "code": "125",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 50,
+        "dateTimePlace": {
+            "textZh": "6~9周 星期日 3~4节 花江校区 17208新",
+            "textEn": "6~9 Week Sun. Unit 3~Unit 4 花江校区,17208新",
+            "text": "6~9周 星期日 3~4节 花江校区 17208新"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 25,
+            "nameZh": "外国语学院",
+            "nameEn": "School of Foreign Studies",
+            "code": "125",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 292006,
+                "no": 0,
+                "limitCount": 50,
+                "dateTimePlace": {
+                    "textZh": "6~9周 星期日 3~4节 花江校区 17208新",
+                    "textEn": "6~9 Week Sun. Unit 3~Unit 4 花江校区,17208新",
+                    "text": "6~9周 星期日 3~4节 花江校区 17208新"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 291381,
+                        "scheduleGroupId": 292006,
+                        "weekday": 7,
+                        "startUnit": 3,
+                        "endUnit": 4,
+                        "startTime": 1025,
+                        "entTime": 1200
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 6,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            7
+        ]
+    },
+    {
+        "id": 291378,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2513187",
+        "teachers": [
+            {
+                "id": 2705,
+                "nameZh": "曾瑞云",
+                "nameEn": "zengruiyun"
+            }
+        ],
+        "course": {
+            "id": 694,
+            "nameZh": "世界古代文明",
+            "nameEn": "null",
+            "code": "0000869X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 25,
+                "nameZh": "外国语学院",
+                "nameEn": "School of Foreign Studies",
+                "code": "125",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 50,
+        "dateTimePlace": {
+            "textZh": "6~9周 星期日 3~4节 花江校区 17202新",
+            "textEn": "6~9 Week Sun. Unit 3~Unit 4 花江校区,17202新",
+            "text": "6~9周 星期日 3~4节 花江校区 17202新"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 25,
+            "nameZh": "外国语学院",
+            "nameEn": "School of Foreign Studies",
+            "code": "125",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 292007,
+                "no": 0,
+                "limitCount": 50,
+                "dateTimePlace": {
+                    "textZh": "6~9周 星期日 3~4节 花江校区 17202新",
+                    "textEn": "6~9 Week Sun. Unit 3~Unit 4 花江校区,17202新",
+                    "text": "6~9周 星期日 3~4节 花江校区 17202新"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 291378,
+                        "scheduleGroupId": 292007,
+                        "weekday": 7,
+                        "startUnit": 3,
+                        "endUnit": 4,
+                        "startTime": 1025,
+                        "entTime": 1200
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 6,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            7
+        ]
+    },
+    {
+        "id": 291379,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2512896",
+        "teachers": [
+            {
+                "id": 2705,
+                "nameZh": "曾瑞云",
+                "nameEn": "zengruiyun"
+            }
+        ],
+        "course": {
+            "id": 694,
+            "nameZh": "世界古代文明",
+            "nameEn": "null",
+            "code": "0000869X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 25,
+                "nameZh": "外国语学院",
+                "nameEn": "School of Foreign Studies",
+                "code": "125",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 50,
+        "dateTimePlace": {
+            "textZh": "6~9周 星期日 1~2节 花江校区 17202新",
+            "textEn": "6~9 Week Sun. Unit 1~Unit 2 花江校区,17202新",
+            "text": "6~9周 星期日 1~2节 花江校区 17202新"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 25,
+            "nameZh": "外国语学院",
+            "nameEn": "School of Foreign Studies",
+            "code": "125",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 292008,
+                "no": 0,
+                "limitCount": 50,
+                "dateTimePlace": {
+                    "textZh": "6~9周 星期日 1~2节 花江校区 17202新",
+                    "textEn": "6~9 Week Sun. Unit 1~Unit 2 花江校区,17202新",
+                    "text": "6~9周 星期日 1~2节 花江校区 17202新"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 291379,
+                        "scheduleGroupId": 292008,
+                        "weekday": 7,
+                        "startUnit": 1,
+                        "endUnit": 2,
+                        "startTime": 825,
+                        "entTime": 1000
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 6,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            7
+        ]
+    },
+    {
+        "id": 291327,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2513191",
+        "teachers": [
+            {
+                "id": 2700,
+                "nameZh": "温露",
+                "nameEn": "wenlou"
+            }
+        ],
+        "course": {
+            "id": 692,
+            "nameZh": "东盟国家社会与文化",
+            "nameEn": "Society and Culture of ASEAN Countries",
+            "code": "0000867X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 25,
+                "nameZh": "外国语学院",
+                "nameEn": "School of Foreign Studies",
+                "code": "125",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 60,
+        "dateTimePlace": {
+            "textZh": "6~9周 星期六 3~4节 花江校区 17209*",
+            "textEn": "6~9 Week Sat. Unit 3~Unit 4 花江校区,17209*",
+            "text": "6~9周 星期六 3~4节 花江校区 17209*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 25,
+            "nameZh": "外国语学院",
+            "nameEn": "School of Foreign Studies",
+            "code": "125",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 291991,
+                "no": 0,
+                "limitCount": 60,
+                "dateTimePlace": {
+                    "textZh": "6~9周 星期六 3~4节 花江校区 17209*",
+                    "textEn": "6~9 Week Sat. Unit 3~Unit 4 花江校区,17209*",
+                    "text": "6~9周 星期六 3~4节 花江校区 17209*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 291327,
+                        "scheduleGroupId": 291991,
+                        "weekday": 6,
+                        "startUnit": 3,
+                        "endUnit": 4,
+                        "startTime": 1025,
+                        "entTime": 1200
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 6,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            6
+        ]
+    },
+    {
+        "id": 291328,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2511507",
+        "teachers": [
+            {
+                "id": 2700,
+                "nameZh": "温露",
+                "nameEn": "wenlou"
+            }
+        ],
+        "course": {
+            "id": 692,
+            "nameZh": "东盟国家社会与文化",
+            "nameEn": "Society and Culture of ASEAN Countries",
+            "code": "0000867X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 25,
+                "nameZh": "外国语学院",
+                "nameEn": "School of Foreign Studies",
+                "code": "125",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 60,
+        "dateTimePlace": {
+            "textZh": "6~9周 星期六 1~2节 花江校区 17209*",
+            "textEn": "6~9 Week Sat. Unit 1~Unit 2 花江校区,17209*",
+            "text": "6~9周 星期六 1~2节 花江校区 17209*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 25,
+            "nameZh": "外国语学院",
+            "nameEn": "School of Foreign Studies",
+            "code": "125",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 291990,
+                "no": 0,
+                "limitCount": 60,
+                "dateTimePlace": {
+                    "textZh": "6~9周 星期六 1~2节 花江校区 17209*",
+                    "textEn": "6~9 Week Sat. Unit 1~Unit 2 花江校区,17209*",
+                    "text": "6~9周 星期六 1~2节 花江校区 17209*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 291328,
+                        "scheduleGroupId": 291990,
+                        "weekday": 6,
+                        "startUnit": 1,
+                        "endUnit": 2,
+                        "startTime": 825,
+                        "entTime": 1000
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 6,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            6
+        ]
+    },
+    {
+        "id": 291324,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2512741",
+        "teachers": [
+            {
+                "id": 1178,
+                "nameZh": "张林",
+                "nameEn": "zhanglin"
+            }
+        ],
+        "course": {
+            "id": 691,
+            "nameZh": "中国文化经典赏析",
+            "nameEn": "null",
+            "code": "000243",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 25,
+                "nameZh": "外国语学院",
+                "nameEn": "School of Foreign Studies",
+                "code": "125",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 80,
+        "dateTimePlace": {
+            "textZh": "11~14周 星期日 3~4节 花江校区 02105Y",
+            "textEn": "11~14 Week Sun. Unit 3~Unit 4 花江校区,02105Y",
+            "text": "11~14周 星期日 3~4节 花江校区 02105Y"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 25,
+            "nameZh": "外国语学院",
+            "nameEn": "School of Foreign Studies",
+            "code": "125",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 291947,
+                "no": 0,
+                "limitCount": 80,
+                "dateTimePlace": {
+                    "textZh": "11~14周 星期日 3~4节 花江校区 02105Y",
+                    "textEn": "11~14 Week Sun. Unit 3~Unit 4 花江校区,02105Y",
+                    "text": "11~14周 星期日 3~4节 花江校区 02105Y"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 291324,
+                        "scheduleGroupId": 291947,
+                        "weekday": 7,
+                        "startUnit": 3,
+                        "endUnit": 4,
+                        "startTime": 1025,
+                        "entTime": 1200
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 11,
+        "scheduleEndWeek": 14,
+        "weekDays": [
+            7
+        ]
+    },
+    {
+        "id": 291323,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2512684",
+        "teachers": [
+            {
+                "id": 1178,
+                "nameZh": "张林",
+                "nameEn": "zhanglin"
+            }
+        ],
+        "course": {
+            "id": 691,
+            "nameZh": "中国文化经典赏析",
+            "nameEn": "null",
+            "code": "000243",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 25,
+                "nameZh": "外国语学院",
+                "nameEn": "School of Foreign Studies",
+                "code": "125",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 253,
+            "nameZh": "文史经典与社会科学",
+            "nameEn": null,
+            "code": "16"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 80,
+        "dateTimePlace": {
+            "textZh": "11~14周 星期日 1~2节 花江校区 02105Y",
+            "textEn": "11~14 Week Sun. Unit 1~Unit 2 花江校区,02105Y",
+            "text": "11~14周 星期日 1~2节 花江校区 02105Y"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 25,
+            "nameZh": "外国语学院",
+            "nameEn": "School of Foreign Studies",
+            "code": "125",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 291948,
+                "no": 0,
+                "limitCount": 80,
+                "dateTimePlace": {
+                    "textZh": "11~14周 星期日 1~2节 花江校区 02105Y",
+                    "textEn": "11~14 Week Sun. Unit 1~Unit 2 花江校区,02105Y",
+                    "text": "11~14周 星期日 1~2节 花江校区 02105Y"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 291323,
+                        "scheduleGroupId": 291948,
+                        "weekday": 7,
+                        "startUnit": 1,
+                        "endUnit": 2,
+                        "startTime": 825,
+                        "entTime": 1000
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 11,
+        "scheduleEndWeek": 14,
+        "weekDays": [
+            7
+        ]
+    },
+    {
+        "id": 285732,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2513224",
+        "teachers": [
+            {
+                "id": 1934,
+                "nameZh": "刘萍",
+                "nameEn": "liuping"
+            }
+        ],
+        "course": {
+            "id": 582,
+            "nameZh": "中国民间艺术的奇妙之旅",
+            "nameEn": "A Wonderful Journey of Chinese Folk Art",
+            "code": "0000757X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 22,
+                "nameZh": "艺术与设计学院",
+                "nameEn": "School of Art and Design",
+                "code": "231",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 250,
+            "nameZh": "艺术鉴赏和评论类",
+            "nameEn": null,
+            "code": "13"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 120,
+        "dateTimePlace": {
+            "textZh": "5~8周 星期四 9~10节 花江校区 16207*",
+            "textEn": "5~8 Week Thu. Unit 9~Unit 10 花江校区,16207*",
+            "text": "5~8周 星期四 9~10节 花江校区 16207*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 22,
+            "nameZh": "艺术与设计学院",
+            "nameEn": "School of Art and Design",
+            "code": "231",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 286728,
+                "no": 0,
+                "limitCount": 120,
+                "dateTimePlace": {
+                    "textZh": "5~8周 星期四 9~10节 花江校区 16207*",
+                    "textEn": "5~8 Week Thu. Unit 9~Unit 10 花江校区,16207*",
+                    "text": "5~8周 星期四 9~10节 花江校区 16207*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 285732,
+                        "scheduleGroupId": 286728,
+                        "weekday": 4,
+                        "startUnit": 10,
+                        "endUnit": 11,
+                        "startTime": 1930,
+                        "entTime": 2110
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 5,
+        "scheduleEndWeek": 8,
+        "weekDays": [
+            4
+        ]
+    },
+    {
+        "id": 285749,
+        "nameZh": "全校",
+        "nameEn": null,
+        "code": "2513242",
+        "teachers": [
+            {
+                "id": 902,
+                "nameZh": "任立新",
+                "nameEn": "renlixin"
+            }
+        ],
+        "course": {
+            "id": 245,
+            "nameZh": "中外传统园林艺术赏析",
+            "nameEn": "Appreciation of Chinese and Foreign Traditional Garden Art",
+            "code": "0000062X0",
+            "credits": 1.0,
+            "flags": [
+                "PUBLIC"
+            ],
+            "department": {
+                "id": 22,
+                "nameZh": "艺术与设计学院",
+                "nameEn": "School of Art and Design",
+                "code": "231",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 250,
+            "nameZh": "艺术鉴赏和评论类",
+            "nameEn": null,
+            "code": "13"
+        },
+        "examMode": {
+            "id": 2,
+            "nameZh": "考查",
+            "nameEn": "Oral exam",
+            "code": "2"
+        },
+        "courseProperty": {
+            "id": 2,
+            "nameZh": "通识教育",
+            "nameEn": "Elective",
+            "code": "02"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 120,
+        "dateTimePlace": {
+            "textZh": "2~9周 星期二 9~10节 花江校区 16207*",
+            "textEn": "2~9 Week Tue. Unit 9~Unit 10 花江校区,16207*",
+            "text": "2~9周 星期二 9~10节 花江校区 16207*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 22,
+            "nameZh": "艺术与设计学院",
+            "nameEn": "School of Art and Design",
+            "code": "231",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 16,
+        "compulsorys": [
+            "ELECTIVE"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 286745,
+                "no": 0,
+                "limitCount": 120,
+                "dateTimePlace": {
+                    "textZh": "2~9周 星期二 9~10节 花江校区 16207*",
+                    "textEn": "2~9 Week Tue. Unit 9~Unit 10 花江校区,16207*",
+                    "text": "2~9周 星期二 9~10节 花江校区 16207*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 285749,
+                        "scheduleGroupId": 286745,
+                        "weekday": 2,
+                        "startUnit": 10,
+                        "endUnit": 11,
+                        "startTime": 1930,
+                        "entTime": 2110
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 2,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            2
+        ]
+    },
+    {
+        "id": 287493,
+        "nameZh": "2023信息安全23003301,23003302,23003303;2023智能科学与技术23003501,23003502,23003503;2023物联网工程23003401,23003402,23003403;2023网络空间安全23003601,23003602,23003603;2023计算机科学与技术(卓越)23003107;2023计算机科学与技术23003101,23003102,23003103,23003104,23003105,23003106;2023软件工程23003201,23003202,23003203,23003204",
+        "nameEn": null,
+        "code": "2510086",
+        "teachers": [
+            {
+                "id": 2169,
+                "nameZh": "陈小玉",
+                "nameEn": "chenxiaoyu"
+            }
+        ],
+        "course": {
+            "id": 26031,
+            "nameZh": "习近平新时代中国特色社会主义思想概论",
+            "nameEn": "Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era",
+            "code": "000049",
+            "credits": 3.0,
+            "flags": [],
+            "department": {
+                "id": 9,
+                "nameZh": "马克思主义学院",
+                "nameEn": null,
+                "code": "220",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 1,
+            "nameZh": "通识必修",
+            "nameEn": null,
+            "code": "BG"
+        },
+        "examMode": {
+            "id": 1,
+            "nameZh": "考试",
+            "nameEn": "Paper exam",
+            "code": "1"
+        },
+        "courseProperty": {
+            "id": 1,
+            "nameZh": "必修",
+            "nameEn": "Obligatory",
+            "code": "BS"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 94,
+        "dateTimePlace": {
+            "textZh": "1~9周 星期二 5~6节 花江校区 11B303*; \n1~9周 星期四 7~8节 花江校区 11B303*",
+            "textEn": "1~9 Week Tue. Unit 5~Unit 6 花江校区,11B303*; \n1~9 Week Thu. Unit 7~Unit 8 花江校区,11B303*",
+            "text": "1~9周 星期二 5~6节 花江校区 11B303*; \n1~9周 星期四 7~8节 花江校区 11B303*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 9,
+            "nameZh": "马克思主义学院",
+            "nameEn": null,
+            "code": "220",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 48,
+        "compulsorys": [
+            "COMPULSORY"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 288424,
+                "no": 0,
+                "limitCount": 94,
+                "dateTimePlace": {
+                    "textZh": "1~9周 星期二 5~6节 花江校区 11B303*; \n1~9周 星期四 7~8节 花江校区 11B303*",
+                    "textEn": "1~9 Week Tue. Unit 5~Unit 6 花江校区,11B303*; \n1~9 Week Thu. Unit 7~Unit 8 花江校区,11B303*",
+                    "text": "1~9周 星期二 5~6节 花江校区 11B303*; \n1~9周 星期四 7~8节 花江校区 11B303*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 287493,
+                        "scheduleGroupId": 288424,
+                        "weekday": 4,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    },
+                    {
+                        "lessonId": 287493,
+                        "scheduleGroupId": 288424,
+                        "weekday": 2,
+                        "startUnit": 6,
+                        "endUnit": 7,
+                        "startTime": 1430,
+                        "entTime": 1605
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 1,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 287494,
+        "nameZh": "2023信息安全23003301,23003302,23003303;2023智能科学与技术23003501,23003502,23003503;2023物联网工程23003401,23003402,23003403;2023网络空间安全23003601,23003602,23003603;2023计算机科学与技术(卓越)23003107;2023计算机科学与技术23003101,23003102,23003103,23003104,23003105,23003106;2023软件工程23003201,23003202,23003203,23003204",
+        "nameEn": null,
+        "code": "2510614",
+        "teachers": [
+            {
+                "id": 2169,
+                "nameZh": "陈小玉",
+                "nameEn": "chenxiaoyu"
+            }
+        ],
+        "course": {
+            "id": 26031,
+            "nameZh": "习近平新时代中国特色社会主义思想概论",
+            "nameEn": "Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era",
+            "code": "000049",
+            "credits": 3.0,
+            "flags": [],
+            "department": {
+                "id": 9,
+                "nameZh": "马克思主义学院",
+                "nameEn": null,
+                "code": "220",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 1,
+            "nameZh": "通识必修",
+            "nameEn": null,
+            "code": "BG"
+        },
+        "examMode": {
+            "id": 1,
+            "nameZh": "考试",
+            "nameEn": "Paper exam",
+            "code": "1"
+        },
+        "courseProperty": {
+            "id": 1,
+            "nameZh": "必修",
+            "nameEn": "Obligatory",
+            "code": "BS"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 94,
+        "dateTimePlace": {
+            "textZh": "1~9周 星期二 7~8节 花江校区 11B303*; \n1~9周 星期四 5~6节 花江校区 11B303*",
+            "textEn": "1~9 Week Tue. Unit 7~Unit 8 花江校区,11B303*; \n1~9 Week Thu. Unit 5~Unit 6 花江校区,11B303*",
+            "text": "1~9周 星期二 7~8节 花江校区 11B303*; \n1~9周 星期四 5~6节 花江校区 11B303*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 9,
+            "nameZh": "马克思主义学院",
+            "nameEn": null,
+            "code": "220",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 48,
+        "compulsorys": [
+            "COMPULSORY"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 288425,
+                "no": 0,
+                "limitCount": 94,
+                "dateTimePlace": {
+                    "textZh": "1~9周 星期二 7~8节 花江校区 11B303*; \n1~9周 星期四 5~6节 花江校区 11B303*",
+                    "textEn": "1~9 Week Tue. Unit 7~Unit 8 花江校区,11B303*; \n1~9 Week Thu. Unit 5~Unit 6 花江校区,11B303*",
+                    "text": "1~9周 星期二 7~8节 花江校区 11B303*; \n1~9周 星期四 5~6节 花江校区 11B303*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 287494,
+                        "scheduleGroupId": 288425,
+                        "weekday": 2,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    },
+                    {
+                        "lessonId": 287494,
+                        "scheduleGroupId": 288425,
+                        "weekday": 4,
+                        "startUnit": 6,
+                        "endUnit": 7,
+                        "startTime": 1430,
+                        "entTime": 1605
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 1,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 287495,
+        "nameZh": "2023信息安全23003301,23003302,23003303;2023智能科学与技术23003501,23003502,23003503;2023物联网工程23003401,23003402,23003403;2023网络空间安全23003601,23003602,23003603;2023计算机科学与技术(卓越)23003107;2023计算机科学与技术23003101,23003102,23003103,23003104,23003105,23003106;2023软件工程23003201,23003202,23003203,23003204",
+        "nameEn": null,
+        "code": "2511802",
+        "teachers": [
+            {
+                "id": 1173,
+                "nameZh": "韦诗业",
+                "nameEn": "weishiye"
+            }
+        ],
+        "course": {
+            "id": 26031,
+            "nameZh": "习近平新时代中国特色社会主义思想概论",
+            "nameEn": "Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era",
+            "code": "000049",
+            "credits": 3.0,
+            "flags": [],
+            "department": {
+                "id": 9,
+                "nameZh": "马克思主义学院",
+                "nameEn": null,
+                "code": "220",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 1,
+            "nameZh": "通识必修",
+            "nameEn": null,
+            "code": "BG"
+        },
+        "examMode": {
+            "id": 1,
+            "nameZh": "考试",
+            "nameEn": "Paper exam",
+            "code": "1"
+        },
+        "courseProperty": {
+            "id": 1,
+            "nameZh": "必修",
+            "nameEn": "Obligatory",
+            "code": "BS"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 94,
+        "dateTimePlace": {
+            "textZh": "1~9周 星期二 5~6节 花江校区 11B306*; \n1~9周 星期四 7~8节 花江校区 11B306*",
+            "textEn": "1~9 Week Tue. Unit 5~Unit 6 花江校区,11B306*; \n1~9 Week Thu. Unit 7~Unit 8 花江校区,11B306*",
+            "text": "1~9周 星期二 5~6节 花江校区 11B306*; \n1~9周 星期四 7~8节 花江校区 11B306*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 9,
+            "nameZh": "马克思主义学院",
+            "nameEn": null,
+            "code": "220",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 48,
+        "compulsorys": [
+            "COMPULSORY"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 288426,
+                "no": 0,
+                "limitCount": 94,
+                "dateTimePlace": {
+                    "textZh": "1~9周 星期二 5~6节 花江校区 11B306*; \n1~9周 星期四 7~8节 花江校区 11B306*",
+                    "textEn": "1~9 Week Tue. Unit 5~Unit 6 花江校区,11B306*; \n1~9 Week Thu. Unit 7~Unit 8 花江校区,11B306*",
+                    "text": "1~9周 星期二 5~6节 花江校区 11B306*; \n1~9周 星期四 7~8节 花江校区 11B306*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 287495,
+                        "scheduleGroupId": 288426,
+                        "weekday": 2,
+                        "startUnit": 6,
+                        "endUnit": 7,
+                        "startTime": 1430,
+                        "entTime": 1605
+                    },
+                    {
+                        "lessonId": 287495,
+                        "scheduleGroupId": 288426,
+                        "weekday": 4,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 1,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 287500,
+        "nameZh": "2023信息安全23003301,23003302,23003303;2023智能科学与技术23003501,23003502,23003503;2023物联网工程23003401,23003402,23003403;2023网络空间安全23003601,23003602,23003603;2023计算机科学与技术(卓越)23003107;2023计算机科学与技术23003101,23003102,23003103,23003104,23003105,23003106;2023软件工程23003201,23003202,23003203,23003204",
+        "nameEn": null,
+        "code": "2512318",
+        "teachers": [
+            {
+                "id": 2319,
+                "nameZh": "杨玉冰",
+                "nameEn": "yangyubing"
+            }
+        ],
+        "course": {
+            "id": 26031,
+            "nameZh": "习近平新时代中国特色社会主义思想概论",
+            "nameEn": "Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era",
+            "code": "000049",
+            "credits": 3.0,
+            "flags": [],
+            "department": {
+                "id": 9,
+                "nameZh": "马克思主义学院",
+                "nameEn": null,
+                "code": "220",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 1,
+            "nameZh": "通识必修",
+            "nameEn": null,
+            "code": "BG"
+        },
+        "examMode": {
+            "id": 1,
+            "nameZh": "考试",
+            "nameEn": "Paper exam",
+            "code": "1"
+        },
+        "courseProperty": {
+            "id": 1,
+            "nameZh": "必修",
+            "nameEn": "Obligatory",
+            "code": "BS"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 94,
+        "dateTimePlace": {
+            "textZh": "1~9周 星期二 7~8节 花江校区 17503*; \n1~9周 星期四 5~6节 花江校区 17405*",
+            "textEn": "1~9 Week Tue. Unit 7~Unit 8 花江校区,17503*; \n1~9 Week Thu. Unit 5~Unit 6 花江校区,17405*",
+            "text": "1~9周 星期二 7~8节 花江校区 17503*; \n1~9周 星期四 5~6节 花江校区 17405*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 9,
+            "nameZh": "马克思主义学院",
+            "nameEn": null,
+            "code": "220",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 48,
+        "compulsorys": [
+            "COMPULSORY"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 288427,
+                "no": 0,
+                "limitCount": 94,
+                "dateTimePlace": {
+                    "textZh": "1~9周 星期二 7~8节 花江校区 17503*; \n1~9周 星期四 5~6节 花江校区 17405*",
+                    "textEn": "1~9 Week Tue. Unit 7~Unit 8 花江校区,17503*; \n1~9 Week Thu. Unit 5~Unit 6 花江校区,17405*",
+                    "text": "1~9周 星期二 7~8节 花江校区 17503*; \n1~9周 星期四 5~6节 花江校区 17405*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 287500,
+                        "scheduleGroupId": 288427,
+                        "weekday": 2,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    },
+                    {
+                        "lessonId": 287500,
+                        "scheduleGroupId": 288427,
+                        "weekday": 4,
+                        "startUnit": 6,
+                        "endUnit": 7,
+                        "startTime": 1430,
+                        "entTime": 1605
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 1,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 287496,
+        "nameZh": "2023信息安全23003301,23003302,23003303;2023智能科学与技术23003501,23003502,23003503;2023物联网工程23003401,23003402,23003403;2023网络空间安全23003601,23003602,23003603;2023计算机科学与技术(卓越)23003107;2023计算机科学与技术23003101,23003102,23003103,23003104,23003105,23003106;2023软件工程23003201,23003202,23003203,23003204",
+        "nameEn": null,
+        "code": "2511885",
+        "teachers": [
+            {
+                "id": 1173,
+                "nameZh": "韦诗业",
+                "nameEn": "weishiye"
+            }
+        ],
+        "course": {
+            "id": 26031,
+            "nameZh": "习近平新时代中国特色社会主义思想概论",
+            "nameEn": "Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era",
+            "code": "000049",
+            "credits": 3.0,
+            "flags": [],
+            "department": {
+                "id": 9,
+                "nameZh": "马克思主义学院",
+                "nameEn": null,
+                "code": "220",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 1,
+            "nameZh": "通识必修",
+            "nameEn": null,
+            "code": "BG"
+        },
+        "examMode": {
+            "id": 1,
+            "nameZh": "考试",
+            "nameEn": "Paper exam",
+            "code": "1"
+        },
+        "courseProperty": {
+            "id": 1,
+            "nameZh": "必修",
+            "nameEn": "Obligatory",
+            "code": "BS"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 94,
+        "dateTimePlace": {
+            "textZh": "1~9周 星期二 7~8节 花江校区 11B306*; \n1~9周 星期四 5~6节 花江校区 11B306*",
+            "textEn": "1~9 Week Tue. Unit 7~Unit 8 花江校区,11B306*; \n1~9 Week Thu. Unit 5~Unit 6 花江校区,11B306*",
+            "text": "1~9周 星期二 7~8节 花江校区 11B306*; \n1~9周 星期四 5~6节 花江校区 11B306*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 9,
+            "nameZh": "马克思主义学院",
+            "nameEn": null,
+            "code": "220",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 48,
+        "compulsorys": [
+            "COMPULSORY"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 288428,
+                "no": 0,
+                "limitCount": 94,
+                "dateTimePlace": {
+                    "textZh": "1~9周 星期二 7~8节 花江校区 11B306*; \n1~9周 星期四 5~6节 花江校区 11B306*",
+                    "textEn": "1~9 Week Tue. Unit 7~Unit 8 花江校区,11B306*; \n1~9 Week Thu. Unit 5~Unit 6 花江校区,11B306*",
+                    "text": "1~9周 星期二 7~8节 花江校区 11B306*; \n1~9周 星期四 5~6节 花江校区 11B306*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 287496,
+                        "scheduleGroupId": 288428,
+                        "weekday": 2,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    },
+                    {
+                        "lessonId": 287496,
+                        "scheduleGroupId": 288428,
+                        "weekday": 4,
+                        "startUnit": 6,
+                        "endUnit": 7,
+                        "startTime": 1430,
+                        "entTime": 1605
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 1,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 287497,
+        "nameZh": "2023信息安全23003301,23003302,23003303;2023智能科学与技术23003501,23003502,23003503;2023物联网工程23003401,23003402,23003403;2023网络空间安全23003601,23003602,23003603;2023计算机科学与技术(卓越)23003107;2023计算机科学与技术23003101,23003102,23003103,23003104,23003105,23003106;2023软件工程23003201,23003202,23003203,23003204",
+        "nameEn": null,
+        "code": "2512064",
+        "teachers": [
+            {
+                "id": 2397,
+                "nameZh": "吴絮颖",
+                "nameEn": "wuxuying"
+            }
+        ],
+        "course": {
+            "id": 26031,
+            "nameZh": "习近平新时代中国特色社会主义思想概论",
+            "nameEn": "Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era",
+            "code": "000049",
+            "credits": 3.0,
+            "flags": [],
+            "department": {
+                "id": 9,
+                "nameZh": "马克思主义学院",
+                "nameEn": null,
+                "code": "220",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 1,
+            "nameZh": "通识必修",
+            "nameEn": null,
+            "code": "BG"
+        },
+        "examMode": {
+            "id": 1,
+            "nameZh": "考试",
+            "nameEn": "Paper exam",
+            "code": "1"
+        },
+        "courseProperty": {
+            "id": 1,
+            "nameZh": "必修",
+            "nameEn": "Obligatory",
+            "code": "BS"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 94,
+        "dateTimePlace": {
+            "textZh": "1~9周 星期二 5~6节 花江校区 11B203*; \n1~9周 星期四 7~8节 花江校区 11B206*",
+            "textEn": "1~9 Week Tue. Unit 5~Unit 6 花江校区,11B203*; \n1~9 Week Thu. Unit 7~Unit 8 花江校区,11B206*",
+            "text": "1~9周 星期二 5~6节 花江校区 11B203*; \n1~9周 星期四 7~8节 花江校区 11B206*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 9,
+            "nameZh": "马克思主义学院",
+            "nameEn": null,
+            "code": "220",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 48,
+        "compulsorys": [
+            "COMPULSORY"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 288429,
+                "no": 0,
+                "limitCount": 94,
+                "dateTimePlace": {
+                    "textZh": "1~9周 星期二 5~6节 花江校区 11B203*; \n1~9周 星期四 7~8节 花江校区 11B206*",
+                    "textEn": "1~9 Week Tue. Unit 5~Unit 6 花江校区,11B203*; \n1~9 Week Thu. Unit 7~Unit 8 花江校区,11B206*",
+                    "text": "1~9周 星期二 5~6节 花江校区 11B203*; \n1~9周 星期四 7~8节 花江校区 11B206*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 287497,
+                        "scheduleGroupId": 288429,
+                        "weekday": 2,
+                        "startUnit": 6,
+                        "endUnit": 7,
+                        "startTime": 1430,
+                        "entTime": 1605
+                    },
+                    {
+                        "lessonId": 287497,
+                        "scheduleGroupId": 288429,
+                        "weekday": 4,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 1,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 287498,
+        "nameZh": "2023信息安全23003301,23003302,23003303;2023智能科学与技术23003501,23003502,23003503;2023物联网工程23003401,23003402,23003403;2023网络空间安全23003601,23003602,23003603;2023计算机科学与技术(卓越)23003107;2023计算机科学与技术23003101,23003102,23003103,23003104,23003105,23003106;2023软件工程23003201,23003202,23003203,23003204",
+        "nameEn": null,
+        "code": "2512191",
+        "teachers": [
+            {
+                "id": 2397,
+                "nameZh": "吴絮颖",
+                "nameEn": "wuxuying"
+            }
+        ],
+        "course": {
+            "id": 26031,
+            "nameZh": "习近平新时代中国特色社会主义思想概论",
+            "nameEn": "Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era",
+            "code": "000049",
+            "credits": 3.0,
+            "flags": [],
+            "department": {
+                "id": 9,
+                "nameZh": "马克思主义学院",
+                "nameEn": null,
+                "code": "220",
+                "telephone": null
+            }
+        },
+        "minorCourse": null,
+        "courseType": {
+            "id": 1,
+            "nameZh": "通识必修",
+            "nameEn": null,
+            "code": "BG"
+        },
+        "examMode": {
+            "id": 1,
+            "nameZh": "考试",
+            "nameEn": "Paper exam",
+            "code": "1"
+        },
+        "courseProperty": {
+            "id": 1,
+            "nameZh": "必修",
+            "nameEn": "Obligatory",
+            "code": "BS"
+        },
+        "campus": {
+            "id": 3,
+            "nameZh": "花江校区",
+            "nameEn": "花江校区"
+        },
+        "limitCount": 94,
+        "dateTimePlace": {
+            "textZh": "1~9周 星期二 7~8节 花江校区 11B203*; \n1~9周 星期四 5~6节 花江校区 11B206*",
+            "textEn": "1~9 Week Tue. Unit 7~Unit 8 花江校区,11B203*; \n1~9 Week Thu. Unit 5~Unit 6 花江校区,11B206*",
+            "text": "1~9周 星期二 7~8节 花江校区 11B203*; \n1~9周 星期四 5~6节 花江校区 11B206*"
+        },
+        "lessonKind": {
+            "id": 1,
+            "nameZh": "正常",
+            "nameEn": "NORMAL",
+            "code": "NORMAL"
+        },
+        "coursePackAssoc": null,
+        "selectionRemark": null,
+        "openDepartment": {
+            "id": 9,
+            "nameZh": "马克思主义学院",
+            "nameEn": null,
+            "code": "220",
+            "telephone": null
+        },
+        "teachLang": {
+            "id": 1,
+            "nameZh": "中文",
+            "nameEn": null,
+            "code": "01"
+        },
+        "totalPeriod": 48,
+        "compulsorys": [
+            "COMPULSORY"
+        ],
+        "scheduleGroups": [
+            {
+                "id": 288430,
+                "no": 0,
+                "limitCount": 94,
+                "dateTimePlace": {
+                    "textZh": "1~9周 星期二 7~8节 花江校区 11B203*; \n1~9周 星期四 5~6节 花江校区 11B206*",
+                    "textEn": "1~9 Week Tue. Unit 7~Unit 8 花江校区,11B203*; \n1~9 Week Thu. Unit 5~Unit 6 花江校区,11B206*",
+                    "text": "1~9周 星期二 7~8节 花江校区 11B203*; \n1~9周 星期四 5~6节 花江校区 11B206*"
+                },
+                "schedules": [
+                    {
+                        "lessonId": 287498,
+                        "scheduleGroupId": 288430,
+                        "weekday": 2,
+                        "startUnit": 8,
+                        "endUnit": 9,
+                        "startTime": 1630,
+                        "entTime": 1805
+                    },
+                    {
+                        "lessonId": 287498,
+                        "scheduleGroupId": 288430,
+                        "weekday": 4,
+                        "startUnit": 6,
+                        "endUnit": 7,
+                        "startTime": 1430,
+                        "entTime": 1605
+                    }
+                ],
+                "default": true
+            }
+        ],
+        "scheduleStartWeek": 1,
+        "scheduleEndWeek": 9,
+        "weekDays": [
+            2,
+            4
+        ]
+    }
+]

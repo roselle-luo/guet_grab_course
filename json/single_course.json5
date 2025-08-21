@@ -1,0 +1,125 @@
+{
+  "id": 291984,
+  "nameZh": "2023软件工程23003201,23003202,23003203,23003204",
+  "nameEn": null,
+  "code": "2510088",
+  "teachers": [
+    {
+      "id": 174373,
+      "nameZh": "陈亦婷",
+      "nameEn": null
+    }
+  ],
+  "course": {
+    "id": 30605,
+    "nameZh": "写作与沟通2",
+    "nameEn": "Writing and Communication II",
+    "code": "000115",
+    "credits": 1.0,
+    "flags": [],
+    "department": {
+      "id": 3,
+      "nameZh": "全校",
+      "nameEn": null,
+      "code": "00",
+      "telephone": null
+    }
+  },
+  "minorCourse": null,
+  "courseType": {
+    "id": 1,
+    "nameZh": "通识必修",
+    "nameEn": null,
+    "code": "BG"
+  },
+  "examMode": {
+    "id": 1,
+    "nameZh": "考试",
+    "nameEn": "Paper exam",
+    "code": "1"
+  },
+  "courseProperty": {
+    "id": 1,
+    "nameZh": "必修",
+    "nameEn": "Obligatory",
+    "code": "BS"
+  },
+  "campus": {
+    "id": 3,
+    "nameZh": "花江校区",
+    "nameEn": "花江校区"
+  },
+  "limitCount": 59,
+  "dateTimePlace": {
+    "textZh": "9~12周 星期一 1~2节 花江校区 17602新; \n9~12周 星期三 3~4节 花江校区 17602新",
+    "textEn": "9~12 Week Mon. Unit 1~Unit 2 花江校区,17602新; \n9~12 Week Wed. Unit 3~Unit 4 花江校区,17602新",
+    "text": "9~12周 星期一 1~2节 花江校区 17602新; \n9~12周 星期三 3~4节 花江校区 17602新"
+  },
+  "lessonKind": {
+    "id": 1,
+    "nameZh": "正常",
+    "nameEn": "NORMAL",
+    "code": "NORMAL"
+  },
+  "coursePackAssoc": null,
+  "selectionRemark": null,
+  "openDepartment": {
+    "id": 17,
+    "nameZh": "计算机与信息安全学院",
+    "nameEn": "School of Computer Science and Information Security",
+    "code": "228",
+    "telephone": null
+  },
+  "teachLang": {
+    "id": 1,
+    "nameZh": "中文",
+    "nameEn": null,
+    "code": "01"
+  },
+  "totalPeriod": 16,
+  "compulsorys": [
+    "COMPULSORY"
+  ],
+  "scheduleGroups": [
+    {
+      "id": 292609,
+      "no": 0,
+      "limitCount": 59,
+      "dateTimePlace": {
+        "textZh": "9~12周 星期一 1~2节 花江校区 17602新; \n9~12周 星期三 3~4节 花江校区 17602新",
+        "textEn": "9~12 Week Mon. Unit 1~Unit 2 花江校区,17602新; \n9~12 Week Wed. Unit 3~Unit 4 花江校区,17602新",
+        "text": "9~12周 星期一 1~2节 花江校区 17602新; \n9~12周 星期三 3~4节 花江校区 17602新"
+      },
+      "schedules": [
+        {
+          "lessonId": 291984,
+          "scheduleGroupId": 292609,
+          "weekday": 1,
+          "startUnit": 1,
+          "endUnit": 2,
+          "startTime": 825,
+          "entTime": 1000
+        },
+        {
+          "lessonId": 291984,
+          "scheduleGroupId": 292609,
+          "weekday": 3,
+          "startUnit": 3,
+          "endUnit": 4,
+          "startTime": 1025,
+          "entTime": 1200
+        }
+      ],
+      "default": true
+    }
+  ],
+  "virtualCost": null,
+  "retake": false,
+  "setup": false,
+  "pinned": true,
+  "coursePackLessonAssocs": [],
+  "substituteCourseAssoc": null,
+  "scheduleGroupAssoc": null,
+  "substituteBuild": false,
+  "needAttend": true
+}

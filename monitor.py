@@ -16,7 +16,7 @@ def filter_business_course(courses):
     return [c for c in courses if c['courseType']['nameZh'].lower() == '创新精神与创业实践'.lower()]
 
 
-def grab_course(course_name, teacher_name='', course_type='', is_business=False, interval=2, max_workers=5):
+def grab_course(course_name, teacher_name='', course_type='', is_business=False, interval=15, max_workers=5):
     while True:
         courses = monitor_course(course_name=course_name, teacher_name=teacher_name, course_type=course_type)
         courses = filter_business_course(courses=courses)
@@ -31,4 +31,6 @@ def grab_course(course_name, teacher_name='', course_type='', is_business=False,
                     except Exception as e:
                         print("错误:", e)
             break
+        else:
+            print("还未开放")
         time.sleep(interval)

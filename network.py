@@ -55,7 +55,7 @@ class NetClient:
         if kwargs.get("json"):
             network_logger.debug(f"JSON: {kwargs['json']}")
         network_logger.info(f"Status: {resp.status_code} | Time: {elapsed:.2f}s | Size: {len(resp.content)} bytes")
-        network_logger.debug(f"Response: {resp.text[:200] + ("..." if len(resp.text) > 200 else "")}")
+        network_logger.debug(f"Response: {resp.text[:200]}{'...' if len(resp.text) > 200 else ''}")
         network_logger.info('========== End ==========\n')
 
     def _full_url(self, path_or_url):
